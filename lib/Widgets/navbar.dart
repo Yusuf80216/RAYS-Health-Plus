@@ -9,23 +9,23 @@ class NavBar extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(top: 20.w, left: 20.w, right: 20.w),
       child: Container(
-        height: 90.w,
+        height: 60.w,
         decoration: BoxDecoration(
-          color: Color.fromARGB(222, 0, 0, 0),
+          color: Color.fromARGB(222, 255, 255, 255),
           borderRadius: BorderRadius.circular(10),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Padding(
-              padding: EdgeInsets.only(left: 50.w),
+              padding: EdgeInsets.only(left: 30.w),
               child: Image(
                 image: AssetImage("assets/RAYS Logo.png"),
-                width: 180.w,
+                width: 120.w,
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(right: 46.w),
+              padding: EdgeInsets.only(right: 36.w),
               child: Row(
                 children: [
                   PageLinks(name: "Home"),
@@ -54,12 +54,12 @@ class PageLinks extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 30.w),
+      padding: EdgeInsets.symmetric(horizontal: 18.w),
       child: Text(
         name,
         style: TextStyle(
-          color: Colors.white,
-          fontSize: 22.w,
+          color: Color.fromARGB(255, 0, 0, 0),
+          fontSize: 16.w,
         ),
       ),
     );

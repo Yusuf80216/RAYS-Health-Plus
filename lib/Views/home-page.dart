@@ -16,10 +16,104 @@ class HomePage extends StatelessWidget {
             children: [
               SingleChildScrollView(
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text("HEAL"),
+                    Container(
+                      width: 1.sw,
+                      height: 1.sh,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("assets/background.jpg"),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Text(
+                            "HEAL",
+                            style: TextStyle(
+                              fontSize: 76.w,
+                              fontWeight: FontWeight.w600,
+                              letterSpacing: 2.w,
+                              color: Color(0xff00F0FF),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 78.w,
+                          ),
+                          Text(
+                            "transforming healthcare in every direction",
+                            style: TextStyle(
+                              fontSize: 38.w,
+                              fontWeight: FontWeight.w400,
+                              letterSpacing: 2.w,
+                              color: Color.fromARGB(255, 255, 255, 255),
+                            ),
+                          ),
+                          SizedBox(height: 36.w),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Container(
+                                width: 146.w,
+                                height: 54.w,
+                                decoration: BoxDecoration(
+                                  color: Colors.blueAccent,
+                                  borderRadius: BorderRadius.circular(5),
+                                ),
+                                child: Center(
+                                  child: Text(
+                                    "Our Mission",
+                                    style: TextStyle(
+                                      fontSize: 16.w,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              SizedBox(width: 58.w),
+                              Container(
+                                width: 170.w,
+                                height: 54.w,
+                                decoration: BoxDecoration(
+                                  color: Color.fromARGB(255, 255, 255, 255),
+                                  borderRadius: BorderRadius.circular(5),
+                                ),
+                                child: Center(
+                                  child: Text(
+                                    "View our Work",
+                                    style: TextStyle(
+                                      fontSize: 16.w,
+                                      color: Color.fromARGB(255, 0, 0, 0),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                    Transform(
+                      transform: Matrix4.translationValues(0, -70.w, 0),
+                      child: Container(
+                        width: 1068.w,
+                        height: 140.w,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(5),
+                          boxShadow: [
+                            BoxShadow(
+                              blurRadius: 20.w,
+                              spreadRadius: 0,
+                              offset: Offset(2, 4),
+                              color: Color(0xff003CB3).withOpacity(0.13),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -28,7 +122,7 @@ class HomePage extends StatelessWidget {
           ),
         );
       },
-      designSize: Size(1920, 1080),
+      designSize: Size(1440, 1024),
     );
   }
 }
