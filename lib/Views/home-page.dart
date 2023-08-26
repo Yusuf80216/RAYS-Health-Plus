@@ -95,25 +95,7 @@ class HomePage extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Transform(
-                      transform: Matrix4.translationValues(0, -70.w, 0),
-                      child: Container(
-                        width: 1068.w,
-                        height: 140.w,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(5),
-                          boxShadow: [
-                            BoxShadow(
-                              blurRadius: 20.w,
-                              spreadRadius: 0,
-                              offset: Offset(2, 4),
-                              color: Color(0xff003CB3).withOpacity(0.13),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
+                    ContactForm(),
                   ],
                 ),
               ),
@@ -123,6 +105,235 @@ class HomePage extends StatelessWidget {
         );
       },
       designSize: Size(1440, 1024),
+    );
+  }
+}
+
+class ContactForm extends StatelessWidget {
+  const ContactForm({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final _emailController = TextEditingController();
+    final _phoneController = TextEditingController();
+    final _queryController = TextEditingController();
+    return Transform(
+      transform: Matrix4.translationValues(0, -70.w, 0),
+      child: Container(
+        width: 1068.w,
+        height: 140.w,
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(5),
+          boxShadow: [
+            BoxShadow(
+              blurRadius: 20.w,
+              spreadRadius: 0,
+              offset: Offset(2, 4),
+              color: Color(0xff003CB3).withOpacity(0.13),
+            ),
+          ],
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(
+                  children: [
+                    Icon(
+                      Icons.email_outlined,
+                      color: Color(0xff3267FF),
+                      size: 20.w,
+                    ),
+                    SizedBox(
+                      width: 14.75.w,
+                    ),
+                    Text(
+                      "Email Address",
+                      style: TextStyle(
+                        fontSize: 16.w,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 14.6.w),
+                SizedBox(
+                  width: 256.67.w,
+                  height: 47.59.w,
+                  child: TextField(
+                    controller: _emailController,
+                    decoration: InputDecoration(
+                      hintText: "Enter your email id...",
+                      hintStyle: TextStyle(
+                        fontSize: 16.w,
+                        color: Color(0xffCCCCCC),
+                      ),
+                      contentPadding: EdgeInsets.symmetric(
+                          vertical: 10.w, horizontal: 10.w),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 1.w,
+                          color: Color(0xffE7E7E7),
+                        ),
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 1.w,
+                          color: Color(0xffE7E7E7),
+                        ),
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(
+                  children: [
+                    Icon(
+                      Icons.phone_android_outlined,
+                      color: Color(0xff3267FF),
+                      size: 20.w,
+                    ),
+                    SizedBox(
+                      width: 14.75.w,
+                    ),
+                    Text(
+                      "Phone Number",
+                      style: TextStyle(
+                        fontSize: 16.w,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(height: 14.6.w),
+                SizedBox(
+                  width: 256.67.w,
+                  height: 47.59.w,
+                  child: TextField(
+                    controller: _phoneController,
+                    decoration: InputDecoration(
+                      hintText: "Enter your phone number...",
+                      hintStyle: TextStyle(
+                        fontSize: 16.w,
+                        color: Color(0xffCCCCCC),
+                      ),
+                      contentPadding: EdgeInsets.symmetric(
+                          vertical: 10.w, horizontal: 10.w),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 1.w,
+                          color: Color(0xffE7E7E7),
+                        ),
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 1.w,
+                          color: Color(0xffE7E7E7),
+                        ),
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(
+                  children: [
+                    Icon(
+                      Icons.message_outlined,
+                      color: Color(0xff3267FF),
+                      size: 20.w,
+                    ),
+                    SizedBox(
+                      width: 14.75.w,
+                    ),
+                    Text(
+                      "Query",
+                      style: TextStyle(
+                        fontSize: 16.w,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(height: 14.6.w),
+                SizedBox(
+                  width: 256.67.w,
+                  height: 47.59.w,
+                  child: TextField(
+                    controller: _queryController,
+                    decoration: InputDecoration(
+                      hintText: "What is your query?",
+                      hintStyle: TextStyle(
+                        fontSize: 16.w,
+                        color: Color(0xffCCCCCC),
+                      ),
+                      contentPadding: EdgeInsets.symmetric(
+                          vertical: 10.w, horizontal: 10.w),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 1.w,
+                          color: Color(0xffE7E7E7),
+                        ),
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 1.w,
+                          color: Color(0xffE7E7E7),
+                        ),
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            Container(
+              width: 162.86.w,
+              height: 54.w,
+              decoration: BoxDecoration(
+                color: Color(0xff3267FF),
+                borderRadius: BorderRadius.circular(5.w),
+              ),
+              child: Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Icon(
+                      Icons.send_outlined,
+                      size: 15.w,
+                      color: Color.fromARGB(255, 255, 255, 255),
+                    ),
+                    Text(
+                      "Book Now",
+                      style: TextStyle(fontSize: 16.w, color: Colors.white),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
