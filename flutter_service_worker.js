@@ -6,7 +6,11 @@ const CACHE_NAME = 'flutter-app-cache';
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const RESOURCES = {".git/COMMIT_EDITMSG": "deec0b541d28e97bb450f9bf593c8eef",
+=======
+const RESOURCES = {".git/COMMIT_EDITMSG": "64a3d48b2e2b3b610efa236dc1880c40",
+>>>>>>> Stashed changes
 ".git/config": "920a11de313bfb8d93d81f4a3a5b71b6",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/FETCH_HEAD": "0e8a33665d8bcaf474e03b062327e1b9",
@@ -46,6 +50,7 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ".git/index": "aa9d7edb133f9e4ff817fc2fd2f79b64",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
 ".git/logs/HEAD": "b2d58596dcfbaf29b2375bb77c99afd4",
@@ -80,6 +85,13 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/logs/refs/heads/main": "97c945d83127a39908dfa2a64ccded9b",
 >>>>>>> Stashed changes
 ".git/logs/refs/heads/master": "e2acd2a145a5631bc5cc57a78c6d312d",
+=======
+".git/index": "6e40b58931d275ee4b50a141d662e253",
+".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
+".git/logs/HEAD": "b319482b251c2748e8755c5e9936d83d",
+".git/logs/refs/heads/main": "4f0d2253eab4604f2ec5822bb429f0a1",
+".git/logs/refs/heads/master": "0d7cd8c48fe8f5659903cf900f585dcd",
+>>>>>>> Stashed changes
 ".git/logs/refs/remotes/origin/HEAD": "5ceb4d9ae647b77b7e0306930e49eb87",
 ".git/logs/refs/remotes/origin/main": "0802e2b612f9e170874d1c3db26817e1",
 ".git/logs/refs/stash": "4cd9a2f8de43ce02d381635457cda19c",
@@ -90,6 +102,7 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/objects/11/637a5bb924d1769ca3776e3441baacd3210683": "34dec1fa1be5cb6418d8872c230e8471",
 ".git/objects/12/b26e1002c62d40a86e151a005c862484388189": "b12adf5009f8a0a7c0a82f197972231c",
 ".git/objects/14/0539305952603bc5fa64ab14acb2ef970727f6": "cb6b55750c6009a8f058897d60a0d26a",
+".git/objects/14/917ad807eb46923d90df379a9a70f8c45c787f": "f01635e217a3fd05b18aae57aba3669b",
 ".git/objects/16/a140594dde06cf848d46a12b8caef0483f08d5": "2f6d0aca562bdef6549a8fcbf9ad33f4",
 ".git/objects/16/eeabc933cf570c160403ac5b1bdc00343b3c7a": "6e8a47a069363cb4d81117aa8bbabbb0",
 ".git/objects/18/c172429d4ad6cbffdd2b3e092e3940f6697b8a": "0f662574dac9d6d7b74f524d48b3ab75",
@@ -111,6 +124,7 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/objects/28/b35cbee043bfe8da90422aa4bac776edf5a9f5": "5b2cf7e26d4f49b7c3562168da4c2a6b",
 ".git/objects/32/807bcec0d000d169104e0bc5dea8cdea2ad852": "48d92c4c09c80be709dd2bc0f5aedb5c",
 ".git/objects/33/ff2b0404f42ab597fbe79b2807285edf5f2774": "70d1e83af52784eccb3f9d37506bb4ae",
+".git/objects/34/fb276b36849110df53fb08992e9d28d4048350": "8fd8e19a262e441042bd9027700817ce",
 ".git/objects/35/8b283c5e0607d104bd24ad423c227efdfa23f5": "fc51b1d53f1fd060707856cceebb44a3",
 ".git/objects/39/4b0389f38d51271056719d5216b5b4b347043c": "9ee9d6025ada9d9a9eb71d786f23d5c7",
 ".git/objects/3a/0809e9623486be592434403829a228de9c8b96": "dd388dfd6d8476c5d36fc89c781c5e22",
@@ -122,6 +136,7 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 =======
 ".git/objects/40/cc0e7d8d67fc46243a4d0331548cd45fb077b8": "2b5132e0f72d5cd2565e3996c3908930",
 ".git/objects/41/bccf2481e55303f6265268d95c1267f46659fa": "d8133c0958916e5ae51bc47aa2370459",
+".git/objects/42/46c2a7d3f190d3e8ba2e7208fbf76404f7eda3": "b552c587ec3af74640647479ae00f59f",
 ".git/objects/45/f7c935f7ddb42d52918d38e6e0a19ad2b3807b": "ecda1d601b746bbf795b70edbb83383c",
 ".git/objects/47/16b679749038ac1c640d9f045073b2624fb60e": "6c468e4435cea16bd83206557b3ede4c",
 ".git/objects/47/d93c26189c2bc47ebac37449bd4d3dc089c39a": "f83e979528be74f2faed3f4ace5279d2",
@@ -173,12 +188,18 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 =======
 ".git/objects/96/3f559c783add0f8ba8e1985ccb18e8e85872df": "9a7f7cd3b281b4ce7942512d7a1dba57",
 ".git/objects/96/6dca637b925f9484b3354e18a444f4dc061ecf": "26c1999618fe52ea2cc4b4d7f6e2a494",
+".git/objects/97/bb7baa309e0b03ed95453c8e5c070bbc6b00b5": "8ba700d89dfa80bd3b79e15d7f755cc7",
 ".git/objects/9b/fb765e6e215340c632ce568016c5e0eddbb75c": "a1ecf356e5f27bc1e13f40c0525ed54b",
 >>>>>>> Stashed changes
 ".git/objects/9d/925eb5edf18ab0af2f55c88ee0c922d4e3ed5e": "3b5eb730d8bab52bfdf6ab0bb45b666a",
 ".git/objects/9d/eb159a0edc6dfd16a271e726bc8887f34fe73c": "b674ea511df0b2670a6280163f136510",
 ".git/objects/9e/9574b972d22abf55dc87ce54d86fa07c2c673e": "f7529a5bbea4ea9b7ea07303559a4300",
 ".git/objects/aa/179a3cc72a8ac6811271d6aaf9ff6d9d74ba84": "428303d578c073a7f876e0ec8b75e55d",
+<<<<<<< Updated upstream
+=======
+".git/objects/af/c15a6b0fb7bc3576b3822583de5a26446a547f": "594dac2c1b26aba8bcafb2114dd34ab0",
+".git/objects/b1/6e01dcdeafe0d89c2cc67006b56d8b8c9425bf": "bd07cd96b1358eb7981c720e27e0246f",
+>>>>>>> Stashed changes
 ".git/objects/b1/8c224f561c67310ffb080fd24e6fa3caec9874": "7135aed9bbd0608ac4c2a003a0f91b1a",
 ".git/objects/b1/a259bc3218838055d6e960f88aba3e0ff3cf3d": "afa60d8451bad4caf725c4aebe173e40",
 ".git/objects/b3/c07e33854de3bafe60d096603e3d23077a7a60": "3657b744126306e289efd99e572d65a7",
@@ -186,6 +207,10 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 <<<<<<< Updated upstream
 =======
 ".git/objects/b8/677514c0311659add22c9be4742f376586edda": "4edd09f66f97bdbd1aec7f7aaa7002b7",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+".git/objects/b8/b6e20f5d2e95a324c18f7cb2302007046a2ac2": "bf3b403fb3300ed4baf556f092672c73",
 >>>>>>> Stashed changes
 ".git/objects/b8/c44177ce7126becd67eeb55aa256bff3286eab": "b1aff123241298f4e32af0dcdc4b9155",
 ".git/objects/bc/cf4a577626162d75ac72028bfae5b2897265b9": "ca26d7c04057ac51f1109499caf6293e",
@@ -253,8 +278,13 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 =======
 ".git/ORIG_HEAD": "6140ec7328945364d8f7f27af9f2b718",
 ".git/packed-refs": "114e5605f4a858ab3a1da2056400ee53",
+<<<<<<< Updated upstream
 ".git/refs/heads/main": "dcdf38c79126277018d2d31ac7256aa4",
 ".git/refs/heads/master": "6140ec7328945364d8f7f27af9f2b718",
+=======
+".git/refs/heads/main": "1e5a473c0c1915e7311fd5b86a408c70",
+".git/refs/heads/master": "4326b035ecf6ee011283d35901ab8afc",
+>>>>>>> Stashed changes
 ".git/refs/remotes/origin/HEAD": "98b16e0b650190870f1b40bc8f4aec4e",
 ".git/refs/remotes/origin/main": "dcdf38c79126277018d2d31ac7256aa4",
 ".git/refs/stash": "50a99d12c768c838b09ef1deea05de70",
@@ -294,6 +324,7 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 "index.html": "d29f93de79b625ed7fe098969ca65003",
 "/": "d29f93de79b625ed7fe098969ca65003",
 "main.dart.js": "b899844ab9404193642646f38fa54ea5",
@@ -308,6 +339,10 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 =======
 "index.html": "dd58b4681ea8da6f4fa7b9b10cbafefe",
 "/": "dd58b4681ea8da6f4fa7b9b10cbafefe",
+>>>>>>> Stashed changes
+=======
+"index.html": "419e6eb3c9e41158a06a9a12d51089aa",
+"/": "419e6eb3c9e41158a06a9a12d51089aa",
 >>>>>>> Stashed changes
 "main.dart.js": "34330ee0f825a138b35871344a552c83",
 >>>>>>> Stashed changes
