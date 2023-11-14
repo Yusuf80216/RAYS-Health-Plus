@@ -7,6 +7,7 @@ const CACHE_NAME = 'flutter-app-cache';
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const RESOURCES = {".git/COMMIT_EDITMSG": "deec0b541d28e97bb450f9bf593c8eef",
 =======
 const RESOURCES = {".git/COMMIT_EDITMSG": "64a3d48b2e2b3b610efa236dc1880c40",
@@ -32,6 +33,12 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/FETCH_HEAD": "3ee03fa0ce45797e1f42dd20193aed33",
 >>>>>>> Stashed changes
+=======
+const RESOURCES = {".git/COMMIT_EDITMSG": "8dd08ad389c9305558fd26ecdaa1a46b",
+".git/config": "920a11de313bfb8d93d81f4a3a5b71b6",
+".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
+".git/FETCH_HEAD": "d41d8cd98f00b204e9800998ecf8427e",
+>>>>>>> Stashed changes
 ".git/HEAD": "4cf2d64e44205fe628ddd534e1151b58",
 ".git/hooks/applypatch-msg.sample": "ce562e08d8098926a3862fc6e7905199",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
@@ -51,11 +58,19 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ".git/index": "aa9d7edb133f9e4ff817fc2fd2f79b64",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
 ".git/logs/HEAD": "b2d58596dcfbaf29b2375bb77c99afd4",
 ".git/logs/refs/heads/main": "98820739277620e5fbf18012c9917ccb",
 ".git/logs/refs/heads/master": "c368c8e0a8f2b4ab96cafd67b267888e",
+=======
+".git/index": "85f74d927712f1db5fcdd663026f65b1",
+".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
+".git/logs/HEAD": "de8ff568a45762c6a4267be01c1384b7",
+".git/logs/refs/heads/main": "dd4666557dcf708e6c1488ab3aac5454",
+".git/logs/refs/heads/master": "1e57de03aab3064ac58f31951d8a3ed5",
+>>>>>>> Stashed changes
 ".git/logs/refs/remotes/origin/HEAD": "5ceb4d9ae647b77b7e0306930e49eb87",
 ".git/logs/refs/remotes/origin/main": "ba8603e42723ee29d3008b65614acf4f",
 ".git/objects/21/eda13ba7474843dc13861b1f6826273d7d8a26": "7e4e584a41b0f6ca0f999ad2d26d4bb5",
@@ -96,6 +111,12 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/logs/refs/remotes/origin/main": "0802e2b612f9e170874d1c3db26817e1",
 ".git/logs/refs/stash": "4cd9a2f8de43ce02d381635457cda19c",
 ".git/objects/05/cbf103f679eb943c35f91a4f8e285c2ef0bd85": "c1b008dba50c579d5bbb4dcbb8f6d59b",
+<<<<<<< Updated upstream
+=======
+".git/objects/05/e9697d4da5b6ec303fa6c53b919009827193c6": "0532ffa82f89f2144b806343fdb0b0bf",
+".git/objects/06/dfbd2c55c7f4c230c877655e5845ece52b7a45": "fbde8f9713d3b4644a6ec87526ae018f",
+".git/objects/07/70034229e74287628ec0cacab74e3af7858a5c": "1e58d3e41faef14303788d8e90ddd69d",
+>>>>>>> Stashed changes
 ".git/objects/0b/d09585e11abf8a06276b9a095536594e39582f": "e4ceafbb9a73cef38611d730a449940a",
 ".git/objects/0c/bc4b66659d95fb0665da09ce304050dea0c42f": "2520bb12d1218cc3423bd1d637bd1112",
 ".git/objects/11/595b701a71415cb1bfd0ddcdb50d1ffbdd4f30": "0c9fbcbb8cf7fb9db389ee4cf2c480b0",
@@ -128,6 +149,11 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/objects/35/8b283c5e0607d104bd24ad423c227efdfa23f5": "fc51b1d53f1fd060707856cceebb44a3",
 ".git/objects/39/4b0389f38d51271056719d5216b5b4b347043c": "9ee9d6025ada9d9a9eb71d786f23d5c7",
 ".git/objects/3a/0809e9623486be592434403829a228de9c8b96": "dd388dfd6d8476c5d36fc89c781c5e22",
+<<<<<<< Updated upstream
+=======
+".git/objects/3a/462f44558dc0fbd264edc9baf792048c36863a": "f544b93fc6ec2d9d5f88d4ddb5f186da",
+".git/objects/3a/8bd9c95e6f1cb11352936a824ee0c6bfb4fccf": "abda09c01868eb4cf4fdf0ab0efe9550",
+>>>>>>> Stashed changes
 ".git/objects/3b/e1aba93729812e389c7e088d841c45e2ccefb3": "be2856521db3e980d2f64226f12f83ba",
 >>>>>>> Stashed changes
 ".git/objects/3d/1715ca6d567b3364eb6e11d5e0ad80fe00f97e": "75ac5002e838708ea3dda3a41342dabc",
@@ -196,7 +222,11 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/objects/9e/9574b972d22abf55dc87ce54d86fa07c2c673e": "f7529a5bbea4ea9b7ea07303559a4300",
 ".git/objects/aa/179a3cc72a8ac6811271d6aaf9ff6d9d74ba84": "428303d578c073a7f876e0ec8b75e55d",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+".git/objects/ac/97ede31108381022889fae4b7045871331139f": "e54adc144db0dbbba6e40bf9aeb33eaa",
+>>>>>>> Stashed changes
 ".git/objects/af/c15a6b0fb7bc3576b3822583de5a26446a547f": "594dac2c1b26aba8bcafb2114dd34ab0",
 ".git/objects/b1/6e01dcdeafe0d89c2cc67006b56d8b8c9425bf": "bd07cd96b1358eb7981c720e27e0246f",
 >>>>>>> Stashed changes
@@ -257,6 +287,7 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 ".git/objects/pack/pack-8cf2095829dca3def77a2821ade04763d6f1850f.pack": "85454bdfab0cbfe835c13c06bcd02d1c",
 ".git/objects/pack/pack-8cf2095829dca3def77a2821ade04763d6f1850f.rev": "6e9c4c399c35070146141d2212bc8284",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ".git/ORIG_HEAD": "2ae2865fe1d3d5eb19da2466883e5a32",
 ".git/packed-refs": "114e5605f4a858ab3a1da2056400ee53",
 <<<<<<< Updated upstream
@@ -270,6 +301,12 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 =======
 ".git/refs/heads/main": "4de584acf7b4538841674ba11ea109d2",
 ".git/refs/heads/master": "6140ec7328945364d8f7f27af9f2b718",
+>>>>>>> Stashed changes
+=======
+".git/ORIG_HEAD": "dfc7f08f4bc0a55c29b30f745019ec42",
+".git/packed-refs": "114e5605f4a858ab3a1da2056400ee53",
+".git/refs/heads/main": "909e336311381639296ea4f8f38e0d2d",
+".git/refs/heads/master": "dfc7f08f4bc0a55c29b30f745019ec42",
 >>>>>>> Stashed changes
 ".git/refs/remotes/origin/HEAD": "98b16e0b650190870f1b40bc8f4aec4e",
 ".git/refs/remotes/origin/main": "2a711f40c75a9a97b8cfaea0c010cd8c",
@@ -325,6 +362,7 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 "index.html": "d29f93de79b625ed7fe098969ca65003",
 "/": "d29f93de79b625ed7fe098969ca65003",
 "main.dart.js": "b899844ab9404193642646f38fa54ea5",
@@ -343,6 +381,10 @@ const RESOURCES = {".git/COMMIT_EDITMSG": "a044b7bd3deb9c8ee3272bf5e5c70de8",
 =======
 "index.html": "419e6eb3c9e41158a06a9a12d51089aa",
 "/": "419e6eb3c9e41158a06a9a12d51089aa",
+>>>>>>> Stashed changes
+=======
+"index.html": "527cd5210e0f54067ab6f839a5a8501d",
+"/": "527cd5210e0f54067ab6f839a5a8501d",
 >>>>>>> Stashed changes
 "main.dart.js": "34330ee0f825a138b35871344a552c83",
 >>>>>>> Stashed changes
