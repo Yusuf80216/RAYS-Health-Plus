@@ -1,11 +1,11 @@
 {
     "name": "RAYS Health Plus",
-    "short_name": "RAYS",
+    "short_name": "RAYS Health Plus",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "RAYS Health Plus",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
